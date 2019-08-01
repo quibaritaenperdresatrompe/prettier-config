@@ -1,4 +1,4 @@
-# `@azz/prettier-config`
+# `@qbaepst/prettier-config`
 
 > My personal [Prettier](https://prettier.io) config.
 
@@ -7,7 +7,7 @@
 **Install**:
 
 ```bash
-$ yarn add --dev @azz/prettier-config
+$ yarn add --dev @qbaepst/prettier-config
 ```
 
 **Edit `package.json`**:
