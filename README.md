@@ -15,6 +15,6 @@ $ yarn add --dev @qbaepst/prettier-config
 ```jsonc
 {
   // ...
-  "prettier": "@azz/prettier-config"
+  "prettier": "@qbaepst/prettier-config"
 }
 ```
