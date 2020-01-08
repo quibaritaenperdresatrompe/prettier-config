@@ -1,6 +1,6 @@
 {
   "name": "@qbaepst/prettier-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "My personal Prettier config",
   "main": "index.json",
   "files": [
@@ -11,5 +11,18 @@
     "url": "https://github.com/quibaritaenperdresatrompe/prettier-config.git"
   },
   "author": "Valentin Barit <valentin.barit@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/github",
+      "@semantic-release/npm",
+      "@semantic-release/git",
+      "@semantic-release/release-notes-generator"
+    ]
+  },
+  "devDependencies": {
+    "@semantic-release/git": "^7.0.18",
+    "semantic-release": "^15.14.0"
+  }
 }

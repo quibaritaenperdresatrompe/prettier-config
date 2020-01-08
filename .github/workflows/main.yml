@@ -18,7 +18,9 @@ jobs:
           cmd: install
 
       - name: Release new version
-        run: npx semantic-release
+        uses: Borales/actions-yarn@v2.1.0
+        with:
+          cmd: semantic-release
         env:
           NPM_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
           GH_TOKEN: ${{secrets.GH_TOKEN}}
