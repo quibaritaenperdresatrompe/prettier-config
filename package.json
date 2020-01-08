@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "My personal Prettier config",
   "main": "index.json",
+  "files": [
+    "index.json"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/quibaritaenperdresatrompe/prettier-config.git"
